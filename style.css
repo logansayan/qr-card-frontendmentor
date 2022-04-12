@@ -13,16 +13,23 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     background-color: var(--light-gray);
     font-family: 'Outfit', sans-serif;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
     background-color: var(--white);
     width: 350px;
-    margin: 50px auto;
     padding: 15px;
     border-radius: 15px;
 }
